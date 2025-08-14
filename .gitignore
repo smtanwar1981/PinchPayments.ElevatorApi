@@ -52,3 +52,11 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+/.vs/PinchPayments.ElevatorApi/config
+/.vs/PinchPayments.ElevatorApi/CopilotIndices/17.14.827.52834
+/.vs/PinchPayments.ElevatorApi/DesignTimeBuild
+/.vs/PinchPayments.ElevatorApi/FileContentIndex
+/.vs/PinchPayments.ElevatorApi/v17/TestStore/0
+/.vs/PinchPayments.ElevatorApi/v17
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json

@@ -1,0 +1,6 @@
+@PinchPayments.ElevatorApi_HostAddress = http://localhost:5268
+
+GET {{PinchPayments.ElevatorApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
