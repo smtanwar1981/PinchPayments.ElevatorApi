@@ -10,9 +10,9 @@ public class ElevatorController(ElevatorService _elevatorService) : ControllerBa
 {
 
     [HttpPost("getElevatorRoute")]
-    public IActionResult GetElevatorRoute(int initialFloor, List<SummonRequest> requests)
+    public IActionResult GetElevatorRoute(int initialLevel, List<SummonRequest> requests)
     {
-        var route = _elevatorService.GetElevatorRoute(initialFloor, requests);
+        var route = _elevatorService.GetElevatorRoute(initialLevel, requests);
         return Ok(route);
     }
 }
