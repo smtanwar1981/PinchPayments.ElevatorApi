@@ -1,0 +1,145 @@
+Request 1: 
+[
+    { "name": "A", "sourceLevel": 0, "destinationLevel": 5 }
+]
+
+Response 2: 
+[
+  {
+    "level": 0,
+    "onBoards": [
+      "A"
+    ],
+    "offBoards": []
+  },
+  {
+    "level": 5,
+    "onBoards": [],
+    "offBoards": [
+      "A"
+    ]
+  }
+]
+
+------------------------------------------------------------------------------------
+
+Request 2: 
+[
+    { "name": "A", "sourceLevel": 6, "destinationLevel": 1 },
+    { "name": "B", "sourceLevel": 4, "destinationLevel": 1 }
+]
+
+Response 2 : 
+[
+  {
+    "level": 4,
+    "onBoards": [
+      "B"
+    ],
+    "offBoards": []
+  },
+  {
+    "level": 6,
+    "onBoards": [
+      "A"
+    ],
+    "offBoards": []
+  },
+  {
+    "level": 1,
+    "onBoards": [],
+    "offBoards": [
+      "B",
+      "A"
+    ]
+  }
+]
+
+------------------------------------------------------------------------------------
+
+Request 3: 
+[
+    { "name": "A", "sourceLevel": 2, "destinationLevel": 6 },
+    { "name": "B", "sourceLevel": 4, "destinationLevel": 0 }
+]
+
+Response 3: 
+[
+  {
+    "level": 2,
+    "onBoards": [
+      "A"
+    ],
+    "offBoards": []
+  },
+  {
+    "level": 4,
+    "onBoards": [
+      "B"
+    ],
+    "offBoards": []
+  },
+  {
+    "level": 6,
+    "onBoards": [],
+    "offBoards": [
+      "A"
+    ]
+  },
+  {
+    "level": 0,
+    "onBoards": [],
+    "offBoards": [
+      "B"
+    ]
+  }
+]
+
+------------------------------------------------------------------------------------
+
+Request 4: 
+[
+    { "name": "A", "sourceLevel": 0, "destinationLevel": 5 },
+    { "name": "B", "sourceLevel": 4, "destinationLevel": 0 },
+    { "name": "C", "sourceLevel": 10, "destinationLevel": 0 }
+]
+
+Response 4: 
+[
+  {
+    "level": 0,
+    "onBoards": [
+      "A"
+    ],
+    "offBoards": []
+  },
+  {
+    "level": 4,
+    "onBoards": [
+      "B"
+    ],
+    "offBoards": []
+  },
+  {
+    "level": 5,
+    "onBoards": [],
+    "offBoards": [
+      "A"
+    ]
+  },
+  {
+    "level": 10,
+    "onBoards": [
+      "C"
+    ],
+    "offBoards": []
+  },
+  {
+    "level": 0,
+    "onBoards": [],
+    "offBoards": [
+      "B",
+      "C"
+    ]
+  }
+]
